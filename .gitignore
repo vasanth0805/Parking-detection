@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Data & weights
+*.tfrecord
+*.h5
+*.ckpt
+*.ckpt.*
+weight_pcr/
+weight_psd/
+PIL-park/*/tfrecord/
+pre_weight/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
